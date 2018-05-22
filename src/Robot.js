@@ -24,6 +24,7 @@ class Robot {
     return (left + right)/2;
   }
 
+
   update() {
     this.position.theta += (this.speed.left - this.speed.right)/WHEEL_DISTANCE;
     const fSpeed = this.getForwardSpeed();

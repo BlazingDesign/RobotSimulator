@@ -9,5 +9,20 @@
 </head>
 <body>
   <canvas id="frame" resize></canvas>
+  <img src="/maps/map.png" id="map" alt="" style="display: none">
+  <br>
+  <textarea id="user_code" cols="50" rows="20">function(robot, sensors) {
+  let right, left;
+  if(sensors.left > 0.5)
+    right = 5;
+  else
+    right = -5;
+  if(sensors.right > 0.5)
+    left = 5;
+  else
+    left = -5;
+  robot.setSpeed({ left, right })
+}</textarea>
+  <button id="run">Run</button>
 </body>
 </html>
