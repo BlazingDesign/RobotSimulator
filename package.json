@@ -1,0 +1,19 @@
+{
+  "name": "robot-simulator",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlazingDesign/RobotSimulator.git"
+  },
+  "author": "Pedro Henrique Kopper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlazingDesign/RobotSimulator/issues"
+  },
+  "homepage": "https://github.com/BlazingDesign/RobotSimulator#readme"
+}
